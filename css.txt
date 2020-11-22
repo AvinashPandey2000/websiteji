@@ -1,0 +1,17 @@
+1 imporrt font
+2 margin and padding  rest
+3 website ko ager responsive bnana hai tho usepixal mena likha use em or rem me likhe
+4
+[.wraper{
+    border: 1px solid black;
+}
+.length{
+    width: 33.33333%;
+    float: left;
+}/*when we use  after class then  we  have to clear that after class with the help of suddo class   */
+.wraper::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+]
